@@ -1,0 +1,138 @@
+body {
+    background: linear-gradient(90deg, #6d0077, #001174, #6d0077);
+    font-family: Arial, "微軟正黑體";
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+   }
+   
+   header, div, section, p {
+    box-sizing: border-box;
+   }
+   
+   .container {
+    width: 940px !important;
+   }
+   
+   header {
+    background: white;
+    line-height: 100px;
+    height: 100px;
+    margin-top: 10px;
+   }
+   
+   nav ul {
+    flex: right !important;
+   }
+   
+   nav {
+    position: sticky;
+    top: 0;
+    margin-bottom: 0 !important;
+    z-index: 999;
+   }
+    
+   .ad {
+    background: url("../img/1598171665_rr.jpg") center/cover no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .ad p {
+    width: 940px;
+    padding: 20px;
+    background: #0011748a;
+    color: white;
+   }
+   
+   section:not(.ad) {
+    background: #333;
+    padding: 20px 40px;
+    margin-top: 80px;
+    min-height: calc(100vh - 160px);
+   }
+   
+   h2 {
+    color: white;
+   }
+   
+   div.row-fluid {
+    background: #eee;
+    padding: 20px;
+    margin-top: 10px;
+   }
+   
+   p {
+       min-height: 100px;
+       text-align: left;
+   }
+   
+   .bottom {
+    text-align: right;
+    border-top: 1px dotted #333;
+    padding: 10px 0;
+   }
+   
+   .img-circle {
+    border-radius: 10px !important;
+   }
+   
+   table * {
+    color: white;
+    text-align: center !important;
+   }
+   
+   td {
+    vertical-align: middle !important;
+   }
+   
+   td>div {
+    width: 100%;
+    height: 130px;
+    line-height: 130px;
+    background-position: center !important;
+    background-size: cover !important;
+    border-radius: 10px;
+    text-shadow: 0 0 10px black;
+    box-shadow: inset 0 0 10px 5px black;
+   }
+   
+   td:nth-child(3n+1)>div {
+    border: 2px solid red;
+   }
+   td:nth-child(3n)>div {
+    border: 2px solid blue;
+   }
+   
+   tbody td {
+    border-top: 0 !important;
+    padding: 15px 0 !important;
+   }
+   
+   thead th {
+    border-bottom: 1px solid white;
+   }
+   
+   tbody img {
+       border-radius: 10%;
+       height: 50px;
+       width: 50px;
+   }
+   
+   footer {
+       margin-top: 80px;
+   }
+   .del {
+       padding: 10px 0;
+       opacity: 0.5;
+       color: red;
+   }
+   .del div {
+       min-height: unset !important;
+   }
+   
+  
+   
